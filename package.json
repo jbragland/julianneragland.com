@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "julianneragland.com",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "A blog based on the Gatsby starter blog",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Julianne Ragland <jbragland@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/jbragland/julianneragland.com/issues"
   },
   "dependencies": {
     "gatsby": "^2.15.18",
