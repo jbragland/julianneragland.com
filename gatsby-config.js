@@ -3,7 +3,7 @@ module.exports = {
     title: `Julianne Ragland`,
     author: `Julianne Ragland`,
     description: `Julianne Ragland's website`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://julianneragland.com/`,
   },
   plugins: [
     {
