@@ -5,7 +5,7 @@ import { rhythm, scale } from "../utils/typography"
 
 class Layout extends React.Component {
   render() {
-    const { location, title, children } = this.props
+    const { location, title, children, author } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let header
 
@@ -63,7 +63,7 @@ class Layout extends React.Component {
         <header>{header}</header>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}
+          © {new Date().getFullYear()} {author}
         </footer>
       </div>
     )
