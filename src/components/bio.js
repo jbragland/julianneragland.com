@@ -51,7 +51,7 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong>, a front end developer in Minneapolis working mainly in WordPress.
+        Written by <strong>{author}</strong>, a front end developer in Minneapolis who works mainly in WordPress.
       </p>
     </div>
   )

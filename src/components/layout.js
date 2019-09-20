@@ -3,9 +3,11 @@ import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
 
+import { FaGithub } from 'react-icons/fa';
+
 class Layout extends React.Component {
   render() {
-    const { location, title, children, author } = this.props
+    const { location, title, children, author, social } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let header
 
@@ -63,7 +65,26 @@ class Layout extends React.Component {
         <header>{header}</header>
         <main>{children}</main>
         <footer>
+          
           © {new Date().getFullYear()} {author}
+          
+          <ul
+            style={{
+              display: `inline`,
+              listStyle: `none`,
+              margin: 0,
+              padding: 0,
+            }}>
+            <li
+              style={{
+                display: `inline-block`,
+                marginLeft: 10,
+              }}>
+                <a href={`https://github.com/${social.github}`}>
+                  <FaGithub />
+                </a>
+              </li>
+          </ul>
         </footer>
       </div>
     )

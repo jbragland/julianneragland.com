@@ -4,6 +4,9 @@ module.exports = {
     author: `Julianne Ragland`,
     description: `Julianne Ragland's website`,
     siteUrl: `https://julianneragland.com/`,
+    social: {
+      github: `jbragland`,
+    },
   },
   plugins: [
     {
