@@ -1,5 +1,5 @@
 ---
-title: Remove tabindex from Gravity Forms
+title: Removing tabindex from Gravity Forms
 date: "2019-08-14"
 ---
 

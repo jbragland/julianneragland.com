@@ -1,5 +1,5 @@
 ---
-title: Explain required fields in Gravity Forms
+title: Indicating required fields in Gravity Forms
 date: "2019-09-05"
 ---
 
